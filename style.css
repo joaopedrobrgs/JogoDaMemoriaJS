@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 400px;
+}
+
+#grid {
+    background-color: black;
+    display: grid;
+    width: 400px;
+    height: 300px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+img{
+    border: 2px solid white;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+button{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    transition: all 500ms;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border: 0.1px solid rgba(0,0,0,0.3);
+    width: 32%;
+    transition: all 500ms;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+p{
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
